@@ -1,3 +1,7 @@
+{#
+    create dim_zones.sql from seeded csv table taxi_zone_lookup.csv
+#}
+
 {{ config(materialized='table') }}
 
 select 
