@@ -1,5 +1,5 @@
 {#
-    This macro returns the description of the payment_type 
+    This macro returns the description of the payment_type for each trip
 #}
 
 {% macro get_payment_type_description(payment_type) -%}
